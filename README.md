@@ -1,0 +1,47 @@
+PROJECT TITLE: 0x11. C - printf(C Group project)
+The functions of the programs and scripts in this project are detailed below;
+TASKS:
+0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
+	a function that produces output according to a format.
+		1. Prototype: int _printf(const char *format, ...);
+		2. Returns: the number of characters printed (excluding the null byte used to end output to strings)
+		3. format is a character string. The format string is composed of zero or more directives. See man 3 printf for more detail. You need to handle th			e following conversion specifiers:	
+			i. c	ii. s	iii. %
+1. Education is when you read the fine print. Experience is what you get if you don't
+	1. A program that handles the following conversion specifiers:
+		i. d	ii. i
+2. With a face like mine, I do better in print
+	1. A program that handles the following custom conversion specifiers:
+		1. b: the unsigned int argument is converted to binary
+3. What one has not experienced, one will never understand in print
+	1. A code that handles the following conversion specifiers:
+		i. u	ii. o	iii. x
+4. Nothing in fine print is ever good news
+	1. Use a local buffer of 1024 chars in order to call write as little as possible.
+5. My weakness is wearing too much leopard print
+	1. Handle the following custom conversion specifier:
+		i. S : prints the string.
+		ii. Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - 			always 2 characters)
+6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
+	1. Handle the following conversion specifier: p.
+7. The big print gives and the small print takes away
+	1. Handle the following flag characters for non-custom conversion specifiers:
+		i. +	ii. space	iii. #
+8. Sarcasm is lost in print
+	1. Handle the following length modifiers for non-custom conversion specifiers:
+		i. l	ii. h
+	2. Conversion specifiers to handle: d, i, u, o, x, X
+9. Print some money and give it to us for the rain forests
+	1. Handle the field width for non-custom conversion specifiers.
+10. The negative is the equivalent of the composer's score, and the print the performance
+	1. Handle the precision for non-custom conversion specifiers.
+11. It's depressing when you're still around and your albums are out of print
+	1. Handle the 0 flag character for non-custom conversion specifiers.
+12. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection
+	1. Handle the - flag character for non-custom conversion specifiers.
+13. Print is the sharpest and the strongest weapon of our party
+	1. Handle the following custom conversion specifier:
+		i. r : prints the reversed string
+14. The flood of print has turned reading into a process of gulping rather than savoring
+	1. Handle the following custom conversion specifier:
+		i. R: prints the rot13'ed string
